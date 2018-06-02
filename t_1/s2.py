@@ -3,7 +3,7 @@ import subprocess
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-host = "192.168.25.15" 
+host = "127.0.0.1" 
 porta = 80
 
 s.connect((host,porta))
